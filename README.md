@@ -9,10 +9,12 @@ Welcome to Video Transformer! This handy script allows you to easily convert vid
 
 First, ensure you have the required dependencies installed. Use pip to install them:
 
-\`\`\`sh
+
+```
 pip install moviepy
 pip install argparse
-\`\`\`
+```
+
 
 ### How to Use
 
@@ -27,9 +29,9 @@ Here's a breakdown of the command-line options available:
 
 Here’s an example of how to run the script:
 
-\`\`\`sh
+```
 python video_converter.py -i input_video.webm -o output_video.mp4 -f mp4 -hq True
-\`\`\`
+```
 
 In this example:
 - \`input_video.webm\` is the input file.
